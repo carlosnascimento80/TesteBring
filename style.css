@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    color: #030303;
+    background: #f1f2f7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 1.1vw;
+}
+
+h3{
+    font-size: 1.75vw;
+}
+
+h4{
+    font-size: 1.5vw;
+}
+
+.conteiner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 70%;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+}
+
+.conteiner .PFoto{
+    width: 35%;
+    background: linear-gradient(to right, #4776e6, #8e54e9);
+    padding: 10% 7%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+.conteiner .PFoto img{
+    margin-bottom: 4%;
+    width: 70%;
+    height: 45%;
+    -webkit-border-radius: 75%;
+    -moz-border-radius: 75%;
+}
+
+.conteiner .PInfo{
+    width: 65%;
+    background: #f1f2f7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7% 4%;
+}
+
+.conteiner .PInfo .Informacoes,
+.conteiner .PInfo .Adicionais{
+    margin-bottom: 4%;
+}
+
+.conteiner .PInfo .Informacoes h3,
+.conteiner .PInfo .Adicionais h3{
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #030303;
+    text-transform: uppercase;
+}
+
+.conteiner .PInfo .Infos,
+.conteiner .PInfo .InfosAd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner .PInfo .Infos .Info,
+.conteiner .PInfo .InfosAd .Info{
+    width: 45%;
+}
+
+.conteiner .PInfo .Infos .Info h4,
+.conteiner .PInfo .InfosAd .Info h4{
+    color: #8e54e9;
+}
+
+.conteiner .Redes ul{
+    display: flex;
+}
+
+.conteiner .Redes img{
+    width: 30%;
+    height: 80%;
+    padding: 2% 2% 2% 2%;
+}
+
+.publi{
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 10%;
+    border: 1px solid #f1f2f7;
+    background: linear-gradient(to right, #4776e6, #8e54e9);
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding: 1% 1%;
+}
